@@ -12,7 +12,7 @@ const Footer = () => (
     whileInView="show"
     className={`${styles.paddings} py-8 relative`}
   >
-    <div className="footer-gradient"/>
+    <div className="footer-gradient" />
 
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
@@ -33,7 +33,7 @@ const Footer = () => (
       </div>
 
       <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] bg-white opacity-10"/>
+        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
@@ -46,11 +46,7 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img
-                src={social.url}
-                alt={social.name}
-                key={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"/>
+              <img src={social.url} alt={social.name} key={social.name} className="w-[24px] h-[24px] object-contain cursor-pointer" />
             ))}
           </div>
         </div>
