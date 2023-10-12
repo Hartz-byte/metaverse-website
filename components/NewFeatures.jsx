@@ -1,4 +1,4 @@
-import styles from "../styles";
+import styles from '../styles';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
   <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
@@ -8,7 +8,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
         alt="icon"
         className="w-1/2 h-1/2 object-contain"
       />
-      </div>
+    </div>
 
       <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-white">
         {title}
